@@ -10,7 +10,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th>Id siswa</th>
+                            <th>NIS</th>
                             <th>Nama</th>
                             <th>minggu 1</th>
                             <th>minggu 2</th>

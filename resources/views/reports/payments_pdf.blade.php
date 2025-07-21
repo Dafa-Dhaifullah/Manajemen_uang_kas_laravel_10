@@ -54,7 +54,7 @@
     <table>
         <thead>
             <tr>
-                <th>ID Siswa</th>
+                <th>NIS</th>
                 <th>Nama</th>
                 <th>Minggu 1</th>
                 <th>Minggu 2</th>

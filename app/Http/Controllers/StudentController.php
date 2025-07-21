@@ -17,7 +17,7 @@ class StudentController extends Controller
     {
         $validated = $request->validate([
             'name' => 'required|string',
-            'student_id' => 'required|string|unique:students',
+            'student_id' => 'required|integer|unique:students',
             'phone' => 'nullable|string'
         ]);
 
@@ -30,7 +30,7 @@ class StudentController extends Controller
     {
         $validated = $request->validate([
             'name' => 'required|string',
-            'student_id' => 'required|string|unique:students,student_id,' . $student->id,
+            'student_id' => 'required|integer|unique:students,student_id,' . $student->id,
             'phone' => 'nullable|string'
         ]);
 

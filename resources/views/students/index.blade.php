@@ -21,7 +21,7 @@
                     <input type="text" class="form-control" name="name" required>
                 </div>
                 <div class="col-md-4">
-                    <label for="student_id" class="form-label">ID Siswa</label>
+                    <label for="student_id" class="form-label">NIS</label>
                     <input type="text" class="form-control" name="student_id" required>
                 </div>
                 <div class="col-md-3">
@@ -43,7 +43,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th>ID Siswa</th>
+                            <th>NIS</th>
                             <th>Nama</th>
                             <th>No HP</th>
                             <th>Aksi</th>
@@ -95,7 +95,7 @@
                         <input type="text" class="form-control" id="edit_name" name="name" required>
                     </div>
                     <div class="mb-3">
-                        <label for="edit_student_id" class="form-label">ID Siswa</label>
+                        <label for="edit_student_id" class="form-label">NIS</label>
                         <input type="text" class="form-control" id="edit_student_id" name="student_id" required>
                     </div>
                     <div class="mb-3">
