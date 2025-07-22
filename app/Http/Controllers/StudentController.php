@@ -19,7 +19,10 @@ class StudentController extends Controller
             'name' => 'required|string',
             'student_id' => 'required|integer|unique:students',
             'phone' => 'nullable|string'
-        ]);
+        ],
+    [
+    'student_id.integer' => 'Gagal menambahkan siswa! NIS harus berupa angka.' // Pesan custom
+]);
 
         Student::create($validated);
         return redirect()->route('students.index')
